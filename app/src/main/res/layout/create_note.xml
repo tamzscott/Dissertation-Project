@@ -125,15 +125,7 @@
                 android:textColor="@color/ColorBlack"
                 android:textColorHint="@color/ColorDarkGray"
                 android:textSize="@dimen/_12ssp" />
-<!--            <ImageView-->
-<!--                android:id="@+id/imgUrlDelete"-->
-<!--                android:layout_width="@dimen/_24sdp"-->
-<!--                android:layout_height="@dimen/_24sdp"-->
-<!--                android:visibility="gone"-->
-<!--                android:src="@drawable/ic_baseline_cancel_24" />-->
         </LinearLayout>
-
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -141,7 +133,6 @@
             android:layout_gravity="end"
             android:gravity="end"
             android:orientation="horizontal">
-
 
             <Button
                 android:layout_width="wrap_content"
@@ -163,7 +154,6 @@
                 android:layout_marginStart="@dimen/_5sdp"
                 android:textColor="@color/ColorDarkGray"
                 android:id="@+id/btnOk"/>
-
 
         </LinearLayout>
     </LinearLayout>
@@ -222,26 +212,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/etNoteDesc"/>
 
-<!--    <TextView-->
-<!--        android:id="@+id/tvSpeechToText"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginStart="@dimen/_10sdp"-->
-<!--        android:layout_marginTop="@dimen/_5sdp"-->
-<!--        android:layout_marginEnd="@dimen/_10sdp"-->
-<!--        android:layout_marginBottom="@dimen/_5sdp"-->
-<!--        android:ellipsize="end"-->
-<!--        android:visibility="gone"-->
-<!--        android:fontFamily="@font/manrope_bold"-->
-<!--        android:padding="@dimen/_10sdp"-->
-<!--        android:textColor="@color/ColorBlack"-->
-<!--        android:textColorHint="@color/ColorDarkGray"-->
-<!--        android:textSize="@dimen/_12ssp"-->
-<!--        android:autoLink="web"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/imgDelete" />-->
-
     <TextView
         android:id="@+id/tvDateTime"
         android:layout_width="@dimen/_150sdp"
@@ -276,6 +246,5 @@
             android:src="@drawable/ic_add"
             app:tint="@color/ColorDarkGray" />
     </FrameLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

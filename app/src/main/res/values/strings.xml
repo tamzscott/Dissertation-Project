@@ -10,6 +10,5 @@
     <string name="delete_image">Delete Image</string>
     <string name="storage_permission_text">This app needs access to your storage.</string>
     <string name="search">Search your notes</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

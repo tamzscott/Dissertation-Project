@@ -7,14 +7,6 @@
     android:background="@color/colorPrimary"
     tools:context=".MainActivity">
 
-<!--    <Button-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="@dimen/_85sdp"-->
-<!--        android:background="@color/ColorWhite">-->
-
-<!--    </Button>-->
-
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
